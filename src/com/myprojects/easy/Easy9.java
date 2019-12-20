@@ -33,7 +33,9 @@ public class Easy9 {
         }
     }
 
-    //第二种想法   先判断是否为负数  负数肯定不满足要求   然后直接将数字倒序  与传入参数进行比较  
+    //第二种想法   先判断是否为负数  负数肯定不满足要求   然后直接将数字倒序  与传入参数进行比较
+    //时间复杂度  为log10（n）
+
     public static boolean isPalindrome1(int x) {
         if(x<0){
             return false;
